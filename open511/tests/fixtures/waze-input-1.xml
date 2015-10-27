@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+   <event id=”unique_id_ETVEWFWEVT344543”>
+      <type>ROAD_CLOSED</type>
+      <subtype></subtype>
+      <start_date>2014-07-14T12:00:00-07:00 GMT</start_date>
+      <update_date>2014-07-15T12:30:00-07:00 GMT</update_date>
+      <end_date>2014-07-21T23:00:00-07:00 GMT</end_date>
+      <description>The event description to be displayed on the map</description>
+      <severity>MAJOR</severity>
+      <location>
+         <street>NW 12th St</street>
+         <city>Miami</city>
+         <latitude>25.78266</latitude>
+         <longitude>-80.32359<longitude>
+         <direction>BOTH_DIRECTIONS</direction>
+            <specify_end> <!--optional. In this case, latitude and longitude are the start. -->
+               <from_cross_street>NW 78th Ave</from_cross_street>
+               <end_cross_street>NW 72nd Ave</end_cross_street>
+               <end_latitude>25.78264</end_latitude>
+               <end_longitude>-80.31733</end_longitude>
+            </specify_end>
+      </location>
+   </event>
+</events>
